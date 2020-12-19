@@ -237,11 +237,11 @@ console.log(findNemo('I am finding Nemo !'));
 
 // EJERCICIO 22
 
-function e22_capLast(string){
+function capLast(string){
     let indexCapLetter = string.length-1;
     let partini = string.substr(0,indexCapLetter);
     let capletter = string.charAt(indexCapLetter).toUpperCase();
     return partini+capletter;
 }
 
-console.log(e22_capLast('albirena'));
+console.log(capLast('hello'));
